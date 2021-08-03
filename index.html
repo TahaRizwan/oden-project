@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Google</title>
 </head>
 <body>
-    <div></div>
+    <header>
+        <a id="gmail-text" href="#" target="_blank">Gmail</a>
+        <a id="images-text" href="#">Images</a>
+        <a id="menu" href="#"><img src="./images/dots-menu.png" width="10px" height="10px" alt="menu"/></a>        
+    </header>
+    <main>
+        <div class="google-main">
+            <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="GoogleImage">
+            <form action="GET">
+                <label for="searcbar">
+                    <img src="./images/loupe.png" width ="10px" height="10px"><input class="search-bar" id="searchbar" name="search"type="text" placeholder="Search" required>
+                    <br>
+                    <button class="button" id="search-button" type="submit" name="submit">Google Search</button>
+                    <button class="button" id="lucy-button" type="button" name="lucky">I'm Feeling Lucky</button>
+                </label>
+            </form>
+        </div>
+    </main>
     
 </body>
 </html>
